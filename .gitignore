@@ -1,0 +1,22 @@
+# Python и Django
+__pycache__/
+*.py[cod]
+db.sqlite3
+
+# Виртуальное окружение и секреты
+venv/
+env/
+.env
+
+# Артефакты автотестов
+.pytest_cache/
+test-results/
+playwright-report/
+blob-report/
+screenshots/
+videos/
+traces/
+*.log
+
+# Настройки редактора
+.vscode/
